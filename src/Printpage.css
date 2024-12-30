@@ -1,0 +1,311 @@
+.logo-print{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.gucci-print-btn {
+  background: transparent;
+  cursor: pointer;
+  font-size: 14px;
+}
+.gucci-shopping-container {
+    max-width: 775px;
+    margin: 0 auto;
+    padding: 20px 40px;
+    font-family: Arial, sans-serif;
+    border: 1px solid #ddd;
+  }
+  .gucci-logo {
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 3px;
+  }
+  .gucci-contact {
+    display: flex
+;
+    justify-content: flex-end;
+    font-size: smaller;
+  }
+  .gucci-separator{
+    margin-left: 5px;
+    margin-right: 5px;
+
+  }
+  .gucci-title{
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-variant-ligatures: none;
+    padding: 33px 0 0;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .gucci-bag-number{
+    font-weight: 500;
+    font-style: normal;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-variant-ligatures: none;
+    padding-bottom: 73px;
+    text-align: center;
+  }
+  .gucci-product-container{
+    display: flex;
+    justify-content: flex-start;
+  }
+  .product-quantity{
+    margin-left: 88px;
+    display: flex
+;
+    gap: 119px;
+}
+.gucci-product-detail{
+    font-size: smaller;
+}
+.gucci-product-name{
+    letter-spacing: 2px;
+}
+.gucci-availability{
+  font-weight: 600;
+  font-size: smaller;
+  margin-left: 13pc;
+}
+.gucci-main{
+  margin-top: 25px;
+}
+.horizontalline{
+  border: 1px solid #e5e5e5;
+  margin-top: 25px;
+}
+
+
+.gucci-order-summary {
+  width: 100%;
+  max-width: 300px;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  margin-left: 410px;
+  margin-top: 20px;
+}
+
+.gucci-summary-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.gucci-summary-label {
+  font-size: 14px;
+  color: black;
+  font-weight: 600;
+  font-size:smaller;
+}
+
+.gucci-summary-value {
+  font-size: 14px;
+  color: #333;
+  text-align: right;
+}
+
+.gucci-shipping-value {
+  font-size: 14px;
+  color: #333;
+  text-align: right;
+  font-style: italic;
+}
+
+.gucci-total-value {
+  font-size: 18px;
+  color: #333;
+  font-weight: bold;
+}
+
+.divider {
+  border-top: 1px solid #eee;
+  margin: 15px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* .gucci-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 50px;
+    }
+    
+  
+  
+  
+  
+  .gucci-title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+  }
+  
+  .gucci-bag-number {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 60px;
+    color: #333;
+  }
+  
+  .gucci-product-container {
+    display: grid;
+    grid-template-columns: 180px 1fr 80px 100px;
+    gap: 30px;
+    padding: 30px 0;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    align-items: start;
+  }
+  
+  .gucci-product-image {
+    width: 100%;
+  }
+  
+  .gucci-product-image img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+  
+  .gucci-product-details {
+    padding-right: 20px;
+  }
+  
+  .gucci-product-name {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 15px;
+  }
+  
+  .gucci-style-number,
+  .gucci-style-desc,
+  .gucci-size {
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  .gucci-availability {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 15px 0;
+  }
+  
+  .gucci-delivery {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #333;
+    max-width: 600px;
+  }
+  
+  .gucci-quantity {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .gucci-price {
+    font-size: 16px;
+    text-align: right;
+  }
+  
+  .gucci-summary {
+    max-width: 300px;
+    margin-left: auto;
+    margin-top: 30px;
+  }
+  
+  .gucci-summary-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .gucci-summary-value {
+    text-align: right;
+  }
+  
+  .gucci-total {
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #e5e5e5;
+    color: #000;
+  }
+  
+  @media (max-width: 768px) {
+    .gucci-shopping-container {
+      padding: 15px;
+    }
+  
+    .gucci-header {
+      flex-direction: column;
+      gap: 20px;
+      text-align: center;
+    }
+  
+    .gucci-contact {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .gucci-print-btn {
+      margin: 10px 0 0 0;
+    }
+  
+    .gucci-product-container {
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+  
+    .gucci-product-image {
+      max-width: 200px;
+      margin: 0 auto;
+    }
+  
+    .gucci-price {
+      text-align: left;
+    }
+  
+    .gucci-summary {
+      margin: 30px auto;
+    }
+  }
+  
+   */
